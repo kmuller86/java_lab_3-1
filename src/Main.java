@@ -28,5 +28,21 @@ public class Main {
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
 
+
+        Student student = new Student(new Osoba("Szsymon", "Dressler", 57062), WydzialEnum.PROGRAMOWANIE);
+        Student student1 = new Student(new Osoba("Johan", "Strauss", 13253), WydzialEnum.PROGRAMOWANIE);
+        Student student2 = new Student(new Osoba("Janusz", "Gajos", 31290), WydzialEnum.LOGISTYKA);
+        Student student3 = new Student(new Osoba("Tadeusz", "Janusz", 59801), WydzialEnum.PROGRAMOWANIE);
+        Student student4 = new Student(new Osoba("Jakub", "Jakubiak", 47395), WydzialEnum.LOGISTYKA);
+        ArrayList<Student> friends = new <Student>ArrayList();
+        friends.add(student);
+        friends.add(student1);
+        friends.add(student2);
+        friends.add(student3);
+        friends.add(student4);
+        for (Student student5 : friends) {
+            System.out.println(student5.toString());
+        }
+
     }
 }
