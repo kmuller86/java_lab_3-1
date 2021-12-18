@@ -32,8 +32,8 @@ public class Main {
         Student student = new Student(new Osoba("Szsymon", "Dressler", 57062), WydzialEnum.PROGRAMOWANIE);
         Student student1 = new Student(new Osoba("Johan", "Strauss", 13253), WydzialEnum.PROGRAMOWANIE);
         Student student2 = new Student(new Osoba("Janusz", "Gajos", 31290), WydzialEnum.LOGISTYKA);
-        Student student3 = new Student(new Osoba("Tadeusz", "Janusz", 59801), WydzialEnum.PROGRAMOWANIE);
-        Student student4 = new Student(new Osoba("Jakub", "Jakubiak", 47395), WydzialEnum.LOGISTYKA);
+        Student student3 = new Student(new Osoba("Tadeusz", "Janusz", 59801), WydzialEnum.EKONOMIA);
+        Student student4 = new Student(new Osoba("Jakub", "Jakubiak", 47395), WydzialEnum.EKOLOGIA);
         ArrayList<Student> friends = new <Student>ArrayList();
         friends.add(student);
         friends.add(student1);
