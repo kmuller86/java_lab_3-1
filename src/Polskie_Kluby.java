@@ -1,3 +1,5 @@
+/* do nazw klas używamy zazwyczaj PascalCase (ToJestNazwaKlasy), do metod cameCase (toJestNazwaMetody),
+   znak _ używamy w enum --> JEDEN, DRUGA_WRTOSC i w stałych te parametry cale piszemy z dużych liter */
 public class Polskie_Kluby {
     protected String fullName;
     protected String founded;
